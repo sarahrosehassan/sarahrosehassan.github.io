@@ -2,55 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sarah Rose Hassan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sarah Rose Hassan — Coming Soon</title>
   <style>
     body {
-      font-family: sans-serif;
-      padding: 2rem;
-      line-height: 1.6;
+      background: #fafafa;
+      font-family: "Helvetica Neue", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      color: #333;
+      text-align: center;
     }
-    .cursor {
-      animation: blink 1s infinite;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
     }
-    @keyframes blink {
-      0%, 50% { opacity: 1; }
-      51%, 100% { opacity: 0; }
+
+    p {
+      font-size: 1.2rem;
+      margin: 0.5rem 0 2rem;
+    }
+
+    .emoji {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 1rem;
+      font-size: 0.85rem;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
 
-  <!-- Simulating header.php -->
-  <header>
-    <h1>Sarah Rose Hassan</h1>
-    <nav>
-      <a href="index.html">Home</a> |
-      <a href="projects.php">Projects</a> |
-      <a href="resume.php">Resume</a>
-    </nav>
-    <hr />
-  </header>
+  <div class="emoji">🚧</div>
+  <h1>Website Under Construction</h1>
+  <p>I'm building something amazing. Check back soon!</p>
 
-  <main>
-    <h2 id="typewriter"><span class="cursor">|</span></h2>
-    <p>This is my personal website where I share blog posts, projects, and more.</p>
-
-    <h2>📝 Latest Posts</h2>
-    <!-- Simulating get-latest-posts.php -->
-    <ul>
-      <li><strong>Coming soon:</strong> My first blog post!</li>
-      <li>Stay tuned for updates 💌</li>
-    </ul>
-
-    <p><a href="show-posts.php">📚 View All Posts</a></p>
-  </main>
-
-  <!-- Simulating footer.php -->
-  <footer>
-    <hr />
-    <p>© 2025 Sarah Rose Hassan — All Rights Reserved</p>
-  </footer>
+  <footer>© 2025 Sarah Rose Hassan</footer>
 
 </body>
 </html>
